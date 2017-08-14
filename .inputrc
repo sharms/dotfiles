@@ -1,0 +1,4 @@
+set match-hidden-files off
+set page-completions off
+set completion-query-items 350
+set show-all-if-ambiguous on
