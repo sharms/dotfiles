@@ -8,6 +8,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'kien/ctrlp.vim'
