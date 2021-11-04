@@ -47,6 +47,9 @@ neovim
 network-manager-applet
 networkmanager
 nitrogen
+nodejs-lts-fermium
+npm
+openssh
 pacman
 pasystray
 patch

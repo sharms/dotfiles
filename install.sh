@@ -81,3 +81,5 @@ systemctl enable battery-charge-threshold.service
 git config --global user.email "sharms@snowfoundry.com"
 git config --global user.name "Steve Harms"
 
+# Setup SSH
+ssh-keygen -t rsa -b 4096
