@@ -1,0 +1,9 @@
+1password
+nerd-fonts-fira-code
+nerd-fonts-hack
+nerd-fonts-source-code-pro
+powerline-fonts-git
+siji-git
+ttf-font-awesome-4
+ttf-meslo-nerd-font-powerlevel10k
+yay
