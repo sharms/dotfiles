@@ -1,4 +1,6 @@
 1password
+jdk
+jre
 nerd-fonts-fira-code
 nerd-fonts-hack
 nerd-fonts-source-code-pro

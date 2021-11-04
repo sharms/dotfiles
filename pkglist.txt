@@ -59,6 +59,7 @@ pkgconf
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+rlwrap
 rofi
 rxvt-unicode
 sed

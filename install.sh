@@ -83,3 +83,9 @@ git config --global user.name "Steve Harms"
 
 # Setup SSH
 ssh-keygen -t rsa -b 4096
+
+# Setup Clojure
+( cd /tmp && \
+  curl -O https://download.clojure.org/install/linux-install-1.10.3.998.sh && \
+  chmod +x linux-install-1.10.3.998.sh && \
+  sudo ./linux-install-1.10.3.998.sh )
