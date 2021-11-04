@@ -71,11 +71,12 @@ cp rofi/config $HOME/.config/rofi/
 sudo cp battery-charge-threshold.service /etc/systemd/system/battery-charge-threshold.service
 
 # Setup Systemd services
-systemctl enable NetworkManager.service
-systemctl enable lightdm.service
-systemctl enable bluetooth.service
-systemctl enable bluetooth.service
-systemctl enable battery-charge-threshold.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl enable lightdm.service
+sudo systemctl enable bluetooth.service
+sudo systemctl enable bluetooth.service
+sudo systemctl enable battery-charge-threshold.service
+sudo systemctl enable fstrim.timer
 
 # Setup Git
 git config --global user.email "sharms@snowfoundry.com"
@@ -89,3 +90,7 @@ ssh-keygen -t rsa -b 4096
   curl -O https://download.clojure.org/install/linux-install-1.10.3.998.sh && \
   chmod +x linux-install-1.10.3.998.sh && \
   sudo ./linux-install-1.10.3.998.sh )
+
+# Setup wallpaper
+mkdir -p $HOME/wallpaper
+cp -r nitrogen $HOME/.config/nitrogen
