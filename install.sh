@@ -94,3 +94,7 @@ ssh-keygen -t rsa -b 4096
 # Setup wallpaper
 mkdir -p $HOME/wallpaper
 cp -r nitrogen $HOME/.config/nitrogen
+
+# Setup Doom Emacs
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
