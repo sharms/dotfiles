@@ -111,3 +111,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias vim=nvim
 set -o vi
+export PATH=$PATH:~/.emacs.d/bin
