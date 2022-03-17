@@ -115,3 +115,4 @@ export PATH=$PATH:~/.emacs.d/bin
 
 # Download git repositories to $HOME/src with clean path
 function dl-gh () { echo "Cloning $1"; if [ ! -d $HOME/src ]; then mkdir $HOME/src; fi; (cd $HOME/src; local dest=`echo $1 | sed -E 's/(git@|https?:\/\/)([a-zA-Z\.]*)(:|\/)(.*)\.git$/\2\/\4/'`; git clone "$1" "$dest")}
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
